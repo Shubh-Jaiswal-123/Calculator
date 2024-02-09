@@ -1,0 +1,80 @@
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .display input {
+    width: calc(100% - 20px); /* Adjusted width */
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .number {
+    background-color: #2196F3; /* Blue for numbers */
+  }
+  
+  .operator {
+    background-color: #FF5722; /* Red for operators */
+  }
+  
+  .clear {
+    background-color: #4CAF50; /* Green for clear button */
+  }
+  
+  .trig-log-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEB3B; /* Yellow for trig & log button */
+    margin-bottom: 10px;
+  }
+  
+  .trig-log-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .operators {
+    margin-bottom: 20px;
+  }
+  
+  .operators button {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green for trig & log operators */
+    margin: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
